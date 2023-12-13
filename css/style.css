@@ -1,38 +1,101 @@
 /* common UI elements */
 
 * {
-    padding: 0;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
+.flex-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 /* header elements */
 header {
-    background-color: #add8e6;
-    height: 80px;
-    display: flex;
-    align-items: center;
+    background-image: url(../img/jumbo.png);
+    background-size: 100%;
+    color: white;
 }
 
-.container {
-    width: 50%;
-    background-color: #daa521;
+.container-top {
+    width: 60%;
+    height: 70px;
     margin: auto;
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    flex-wrap: wrap;
 }
 
-.link-container {
+.flex-link-item {
+    padding: 15px;
+}
+
+#white-button {
+    border: none;
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    border-radius: 15px;
+    min-width: 70px;
+    min-height: 28px;
+}
+
+.container-button-title {
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+    padding-top: 100px;
 }
 
-.link {
+.container-button-paragraph {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+.paragraph-button {
+    display: flex;
+    justify-content: center;
     padding: 5px;
+}
+
+#img-down {
+    width: 7px;
+    margin: 9px;
+}
+
+.button-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 165px;
+}
+
+#white-button-mac {
+    border: none;
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    border-radius: 15px;
+    min-width: 170px;
+    min-height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#black-button {
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    min-width: 195px;
+    min-height: 35px;
+    margin-left: 50px;
 }
 
 /* main elements */
